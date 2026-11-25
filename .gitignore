@@ -1,0 +1,17 @@
+# Dataset (download separately - see README)
+KDD+.txt
+KDDTrain+.txt
+KDDTest+.txt
+*.zip
+
+# Trained model (published as a GitHub Release asset instead)
+*.joblib
+
+# Local-only files
+network-anomaly.ipynb
+private/
+.ipynb_checkpoints/
+__pycache__/
+.DS_Store
+.env
+*.ovpn
